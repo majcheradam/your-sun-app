@@ -1,0 +1,58 @@
+{
+  "layers": [
+    {
+      "number": 0,
+      "name": "AIA 0304 Å",
+      "id": "0304",
+      "description": "Kanał ten szczególnie dobrze pokazuje obszary, gdzie chłodniejsze gęste pióropusze plazmy (filamenty i prominencje) znajdują się nad widoczną powierzchnią Słońca. Wiele z tych cech albo nie jest widocznych, albo pojawia się jako ciemne linie w innych kanałach. Jasne obszary pokazują miejsca, gdzie plazma ma dużą gęstość."
+    },
+    {
+      "number": 1,
+      "name": "AIA 0193 Å",
+      "id": "0193",
+      "description": "Kanał ten podkreśla zewnętrzną atmosferę Słońca - zwaną koroną - jak również gorącą plazmę z rozbłysków. Gorące aktywne regiony, rozbłyski słoneczne i koronalne wyrzuty masy będą tutaj widoczne w jasnych barwach. Ciemne obszary - zwane dziurami koronalnymi - to miejsca, gdzie emitowane jest bardzo mało promieniowania, jednak są one głównym źródłem cząstek wiatru słonecznego. AIA 0304- Kanał ten szczególnie dobrze pokazuje obszary, gdzie chłodniejsze gęste pióropusze plazmy (filamenty i prominencje) znajdują się nad widoczną powierzchnią Słońca. Wiele z tych cech albo nie jest widocznych, albo pojawia się jako ciemne linie w innych kanałach. Jasne obszary pokazują miejsca, gdzie plazma ma dużą gęstość."
+    },
+    {
+      "number": 2,
+      "name": "AIA 0171 Å",
+      "id": "0171",
+      "description": "Kanał ten szczególnie dobrze pokazuje pętle koronalne - łuki rozciągające się poza Słońcem, gdzie plazma porusza się wzdłuż linii pola magnetycznego. Najjaśniejsze plamy widoczne tutaj to miejsca, gdzie pole magnetyczne przy powierzchni jest wyjątkowo silne."
+    },
+    {
+      "number": 3,
+      "name": "AIA 0211 Å",
+      "id": "0211",
+      "description": "Ten kanał (jak również AIA 335) podkreśla aktywny region zewnętrznej atmosfery Słońca - koronę. Aktywne regiony, rozbłyski słoneczne i koronalne wyrzuty masy będą tutaj widoczne w jasnych barwach. Ciemne obszary - zwane dziurami koronalnymi - to miejsca, gdzie emitowane jest bardzo mało promieniowania, jednak są one głównym źródłem cząstek wiatru słonecznego."
+    },
+    {
+      "number": 4,
+      "name": "AIA 0131 Å",
+      "id": "0131",
+      "description": "Ten kanał (jak również AIA 094) jest przeznaczony do badania rozbłysków słonecznych. Mierzy on ekstremalnie gorące temperatury około 10 milionów K (18 milionów F), jak również chłodne plazmy około 400 000 K (720 000 F). Może wykonywać zdjęcia co 2 sekundy (zamiast 10) w zmniejszonym polu widzenia, aby przyjrzeć się rozbłyskom bardziej szczegółowo."
+    },
+    {
+      "number": 5,
+      "name": "AIA 0335 Å",
+      "id": "0335",
+      "description": "Ten kanał (jak również AIA 211) podkreśla aktywny region zewnętrznej atmosfery Słońca - koronę. Aktywne regiony, rozbłyski słoneczne i koronalne wyrzuty masy będą tutaj widoczne w jasnych barwach. Ciemne obszary - dziury koronalne - to miejsca, gdzie emitowane jest bardzo mało promieniowania, ale są głównym źródłem cząstek wiatru słonecznego."
+    },
+    {
+      "number": 6,
+      "name": "AIA 0094 Å",
+      "id": "0094",
+      "description": "Kanał ten (podobnie jak AIA 131) jest przeznaczony do badania rozbłysków słonecznych. Mierzy on niezwykle gorące temperatury w okolicach 6 milionów Kelwinów (10,8 milionów F). Może wykonywać zdjęcia co 2 sekundy (zamiast 10) w zmniejszonym polu widzenia, aby przyjrzeć się rozbłyskom bardziej szczegółowo."
+    },
+    {
+      "number": 7,
+      "name": "AIA 1600 Å",
+      "id": "1600",
+      "description": "Kanał ten (jak również AIA 1700) często pokazuje przypominający sieć wzór jasnych obszarów, które podkreślają miejsca, gdzie skupione są wiązki linii pola magnetycznego. Jednak małe obszary z dużą ilością linii pola pojawią się czarne, zwykle w pobliżu plam słonecznych i aktywnych regionów"
+    },
+    {
+      "number": 8,
+      "name": "AIA 1700 Å",
+      "id": "1700",
+      "description": "Kanał ten (jak również AIA 1600) często pokazuje przypominający sieć wzór jasnych obszarów, które podkreślają miejsca, gdzie skupione są wiązki linii pola magnetycznego. Jednak małe obszary z dużą ilością linii pola pojawią się czarne, zwykle w pobliżu plam słonecznych i aktywnych regionów."
+    }
+  ]
+}
