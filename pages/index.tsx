@@ -35,7 +35,7 @@ const Page: React.FC<any> = ({ layers }) => {
     value
   ).format('YYYY/MM/DD')}/${dayjs(value).format(
     'YYYYMMDD'
-  )}_1024_${number_id}.ogv`
+  )}_1024_${number_id}.mp4`
 
   // Change Date
   const handleChange = (newValue: Dayjs | null) => {
