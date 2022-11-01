@@ -18,7 +18,7 @@ import InputLabel from '@mui/material/InputLabel'
 import FormControl from '@mui/material/FormControl'
 import NativeSelect from '@mui/material/NativeSelect'
 
-const Page = ({ content }) => {
+const Page: React.FC<any> = ({ layers }) => {
   const today = new Date()
   today
     .setDate(today.getDate() - 1)
@@ -27,7 +27,7 @@ const Page = ({ content }) => {
 
   // Content
   const [count, setCounter] = useState(0)
-  const number_id = content.layers[count].id
+  const number_id = layers[count].id
 
   // Video
   const [value, setValue] = useState<Dayjs | null>(dayjs(today))
@@ -37,8 +37,16 @@ const Page = ({ content }) => {
     'YYYYMMDD'
   )}_1024_${number_id}.ogv`
 
+  // Change Date
   const handleChange = (newValue: Dayjs | null) => {
     setValue(newValue)
+  }
+
+  // interface
+  interface Props {
+    name: string
+    id: string
+    number: number
   }
 
   return (
@@ -74,7 +82,7 @@ const Page = ({ content }) => {
                       setCounter(parseInt(event.currentTarget.value))
                     }
                   >
-                    {content.layers.map(({ name, id, number }) => (
+                    {layers.map(({ name, id, number }: Props) => (
                       <option value={number} key={id}>
                         {name}
                       </option>
@@ -98,7 +106,7 @@ const Page = ({ content }) => {
             </LocalizationProvider>
           </div>
         </div>
-        <div className="description">{content.layers[count].description}</div>
+        <div className="description">{layers[count].description}</div>
       </div>
     </main>
   )

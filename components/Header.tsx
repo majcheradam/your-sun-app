@@ -1,11 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Button from '@mui/material/Button'
-import { useRouter } from 'next/router'
 
 const Header = () => {
-  const router = useRouter()
-  console.log(router)
   return (
     <header>
       <div>

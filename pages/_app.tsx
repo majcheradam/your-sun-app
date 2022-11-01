@@ -14,11 +14,13 @@ const darkTheme = createTheme({
   },
 })
 
+console.log(Polish)
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={darkTheme}>
       <Header />
-      <Component {...pageProps} content={Polish} />
+      <Component {...pageProps} layers={Polish.layers} />
       <Footer />
     </ThemeProvider>
   )
