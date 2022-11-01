@@ -201,3 +201,13 @@ footer {
     color: #9c9c9c;
   }
 }
+
+.iframe-container {
+  iframe {
+    width: 550px;
+    height: 550px;
+    @media (max-width: 550px) {
+      width: 100vw;
+    }
+  }
+}

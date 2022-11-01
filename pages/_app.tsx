@@ -14,8 +14,6 @@ const darkTheme = createTheme({
   },
 })
 
-console.log(Polish)
-
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={darkTheme}>

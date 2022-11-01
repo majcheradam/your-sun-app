@@ -6,18 +6,18 @@ const Page = () => {
       <Head>
         <title>Parker Solar Probe | YourSun</title>
       </Head>
-      <iframe
-        title="Parker Solar Probe"
-        allow="autoplay; fullscreen; xr-spatial-tracking"
-        xr-spatial-tracking
-        execution-while-out-of-viewport
-        execution-while-not-rendered
-        web-share
-        frameBorder={0}
-        width={550}
-        height={550}
-        src="https://sketchfab.com/models/41b4784c68cf4552807d0d037bb68e59/embed?autostart=1&ui_theme=dark&dnt=1"
-      />
+      <div className="iframe-container">
+        <iframe
+          title="Parker Solar Probe"
+          allow="autoplay; fullscreen; xr-spatial-tracking"
+          xr-spatial-tracking
+          execution-while-out-of-viewport
+          execution-while-not-rendered
+          web-share
+          frameBorder={0}
+          src="https://sketchfab.com/models/41b4784c68cf4552807d0d037bb68e59/embed?autostart=1&ui_theme=dark&dnt=1"
+        />
+      </div>
       <div className="wrapper description">
         Amerykańska sonda wysłana w ramach programu Living with a Star
         (polegającym na poprawianiu zrozumienia tego, jak i dlaczego Słońce się
