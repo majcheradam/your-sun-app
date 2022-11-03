@@ -7,7 +7,7 @@ const Page = () => {
       <Head>
         <title>Solar Dynamics Observatory | YourSun</title>
       </Head>
-      <div>
+      <div className="video-container">
         <Image className="img" src="/us.jpg" alt="" width={550} height={550} />
       </div>
       <div className="wrapper description">
