@@ -1,6 +1,4 @@
 {
-  "header": { "aboutUs": "O nas" },
-  "inputs": { "layer": "Powłoka", "date": "Data" },
   "layers": [
     {
       "number": 0,

@@ -30,7 +30,7 @@ const Header = () => {
           </li>
           <li>
             <Button className="button">
-              <Link href="https://mleczni.pl">O nas</Link>
+              <Link href="/about-us">O nas</Link>
             </Button>
           </li>
         </ul>

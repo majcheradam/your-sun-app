@@ -1,57 +1,59 @@
-[
-  {
-    "number": 0,
-    "name": "AIA 0304",
-    "id": "0304",
-    "description": "This channel is especially good at showing areas where cooler dense plumes of plasma (filaments and prominences) are located above the visible surface of the Sun. Many of these features either can't be seen or appear as dark lines in the other channels. The bright areas show places where the plasma has a high density."
-  },
-  {
-    "number": 1,
-    "name": "AIA 0193",
-    "id": "0193",
-    "description": "This channel highlights the outer atmosphere of the Sun - called the corona - as well as hot flare plasma. Hot active regions, solar flares, and coronal mass ejections will appear bright here. The dark areas - called coronal holes - are places where very little radiation is emitted, yet are the main source of solar wind particles."
-  },
-  {
-    "number": 2,
-    "name": "AIA 0171",
-    "id": "0171",
-    "description": "This channel is especially good at showing coronal loops - the arcs extending off of the Sun where plasma moves along magnetic field lines. The brightest spots seen here are locations where the magnetic field near the surface is exceptionally strong."
-  },
-  {
-    "number": 3,
-    "name": "AIA 0211",
-    "id": "0211",
-    "description": "This channel (as well as AIA 335) highlights the active region of the outer atmosphere of the Sun - the corona. Active regions, solar flares, and coronal mass ejections will appear bright here. The dark areas - called coronal holes - are places where very little radiation is emitted, yet are the main source of solar wind particles."
-  },
-  {
-    "number": 4,
-    "name": "AIA 0131",
-    "id": "0131",
-    "description": "This channel (as well as AIA 094) is designed to study solar flares. It measures extremely hot temperatures around 10 million K (18 million F), as well as cool plasmas around 400,000 K (720,000 F). It can take images every 2 seconds (instead of 10) in a reduced field of view in order to look at flares in more detail."
-  },
-  {
-    "number": 5,
-    "name": "AIA 0335",
-    "id": "0335",
-    "description": "This channel (as well as AIA 211) highlights the active region of the outer atmosphere of the Sun - the corona. Active regions, solar flares, and coronal mass ejections will appear bright here. The dark areas - or coronal holes - are places where very little radiation is emitted, yet are the main source of solar wind particles."
-  },
-  {
-    "number": 6,
-    "name": "AIA 0094",
-    "id": "0094",
-    "description": "This channel (as well as AIA 131) is designed to study solar flares. It measures extremely hot temperatures around 6 million Kelvin (10.8 million F). It can take images every 2 seconds (instead of 10) in a reduced field of view in order to look at flares in more detail."
-  },
-  {
-    "number": 7,
-    "name": "AIA 1600",
-    "id": "1600",
-    "description": "This channel (as well as AIA 1700) often shows a web-like pattern of bright areas that highlight places where bundles of magnetic fields lines are concentrated. However, small areas with a lot of field lines will appear black, usually near sunspots and active regions."
-  },
+{
+  "layers": [
+    {
+      "number": 0,
+      "name": "AIA 0304",
+      "id": "0304",
+      "description": "This channel is especially good at showing areas where cooler dense plumes of plasma (filaments and prominences) are located above the visible surface of the Sun. Many of these features either can't be seen or appear as dark lines in the other channels. The bright areas show places where the plasma has a high density."
+    },
+    {
+      "number": 1,
+      "name": "AIA 0193",
+      "id": "0193",
+      "description": "This channel highlights the outer atmosphere of the Sun - called the corona - as well as hot flare plasma. Hot active regions, solar flares, and coronal mass ejections will appear bright here. The dark areas - called coronal holes - are places where very little radiation is emitted, yet are the main source of solar wind particles."
+    },
+    {
+      "number": 2,
+      "name": "AIA 0171",
+      "id": "0171",
+      "description": "This channel is especially good at showing coronal loops - the arcs extending off of the Sun where plasma moves along magnetic field lines. The brightest spots seen here are locations where the magnetic field near the surface is exceptionally strong."
+    },
+    {
+      "number": 3,
+      "name": "AIA 0211",
+      "id": "0211",
+      "description": "This channel (as well as AIA 335) highlights the active region of the outer atmosphere of the Sun - the corona. Active regions, solar flares, and coronal mass ejections will appear bright here. The dark areas - called coronal holes - are places where very little radiation is emitted, yet are the main source of solar wind particles."
+    },
+    {
+      "number": 4,
+      "name": "AIA 0131",
+      "id": "0131",
+      "description": "This channel (as well as AIA 094) is designed to study solar flares. It measures extremely hot temperatures around 10 million K (18 million F), as well as cool plasmas around 400,000 K (720,000 F). It can take images every 2 seconds (instead of 10) in a reduced field of view in order to look at flares in more detail."
+    },
+    {
+      "number": 5,
+      "name": "AIA 0335",
+      "id": "0335",
+      "description": "This channel (as well as AIA 211) highlights the active region of the outer atmosphere of the Sun - the corona. Active regions, solar flares, and coronal mass ejections will appear bright here. The dark areas - or coronal holes - are places where very little radiation is emitted, yet are the main source of solar wind particles."
+    },
+    {
+      "number": 6,
+      "name": "AIA 0094",
+      "id": "0094",
+      "description": "This channel (as well as AIA 131) is designed to study solar flares. It measures extremely hot temperatures around 6 million Kelvin (10.8 million F). It can take images every 2 seconds (instead of 10) in a reduced field of view in order to look at flares in more detail."
+    },
+    {
+      "number": 7,
+      "name": "AIA 1600",
+      "id": "1600",
+      "description": "This channel (as well as AIA 1700) often shows a web-like pattern of bright areas that highlight places where bundles of magnetic fields lines are concentrated. However, small areas with a lot of field lines will appear black, usually near sunspots and active regions."
+    },
 
-  {
-    "number": 8,
-    "name": "AIA 1700",
-    "id": "1700",
-    "description": "This channel (as well as AIA 1600) often shows a web-like pattern of bright areas that highlight places where bundles of magnetic fields lines are concentrated. However, small areas with a lot of field lines will appear black, usually near sunspots and active regions."
-  }
-]
+    {
+      "number": 8,
+      "name": "AIA 1700",
+      "id": "1700",
+      "description": "This channel (as well as AIA 1600) often shows a web-like pattern of bright areas that highlight places where bundles of magnetic fields lines are concentrated. However, small areas with a lot of field lines will appear black, usually near sunspots and active regions."
+    }
+  ]
+}

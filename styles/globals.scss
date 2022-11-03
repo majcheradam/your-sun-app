@@ -100,6 +100,13 @@ main {
     max-width: 550px;
     max-height: 550px;
   }
+  img {
+    object-fit: cover !important;
+    @media (max-width: 550px) {
+      height: 100vw;
+      width: 100vw;
+    }
+  }
 }
 
 header {
@@ -107,11 +114,11 @@ header {
   z-index: 2;
   @media (min-width: 768px) {
     position: absolute;
-    padding: 16px 32px;
+    padding: 14px 32px;
   }
   display: flex;
   justify-content: space-between;
-  padding: 16px 16px;
+  padding: 14px 14px;
   .nav {
     display: flex;
     justify-content: center;
@@ -126,7 +133,7 @@ header {
 
 .wrapper {
   @media (max-width: 768px) {
-    margin: 0 16px;
+    margin: 0 14px;
   }
 }
 
