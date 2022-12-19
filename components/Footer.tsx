@@ -8,6 +8,8 @@ export default function Footer() {
         <Link href="https://mleczni.pl">
           <p>© Mleczni Ludzie</p>
         </Link>
+        <br />
+        <br />
       </p>
     </footer>
   )
