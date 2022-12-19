@@ -20,21 +20,16 @@ const Page = () => {
       </div>
       <div className="wrapper description">
         <br />
-        Solar Dynamics Observatory jest pierwszą misją, która zostanie
-        uruchomiona w ramach programu NASA Living With a Star (LWS), programu
-        zaprojektowanego w celu zrozumienia przyczyn zmienności Słońca i jej
-        wpływu na Ziemię. SDO ma pomóc nam zrozumieć wpływ Słońca na Ziemię i
-        przestrzeń bliską Ziemi poprzez badanie atmosfery słonecznej w małych
-        skalach przestrzeni i czasu oraz w wielu długościach fal jednocześnie.
+        👀🌞🛰️ Sonda Solar Dynamics Observatory to teleskop, który został
+        wysłany w kosmos przez NASA, żeby badać Słońce 🌞. Ma on na celu lepsze
+        zrozumienie tego, co dzieje się na Słońcu i jak to wpływa na Ziemię.
+        Teleskop ten ma wiele różnych narzędzi, które pomagają mu zbierać dane i
+        obrazy Słońca z różnych kątów i z różnych fal elektromagnetycznych.
         <br />
         <br />
-        Celem SDO jest zrozumienie, zmierzając w kierunku zdolności
-        przewidywania, zmian słonecznych, które wpływają na życie na Ziemi i
-        systemy technologiczne ludzkości poprzez określenie jak generowane i
-        zorganizowane jest pole magnetyczne Słońca oraz jak ta zmagazynowana
-        energia magnetyczna jest przekształcana i uwalniana do heliosfery i
-        geoprzestrzeni w postaci wiatru słonecznego, cząstek energetycznych i
-        zmian napromieniowania słonecznego.
+        Dzięki temu możemy lepiej zrozumieć, jak Słońce wytwarza plamy słoneczne
+        i fajery, a także jak te zjawiska mogą wpływać na Ziemię poprzez burze
+        magnetyczne i inne zmiany pogody na naszej planecie. 🌪️🌩️🌪️🌩️🌪️
       </div>
     </main>
   )
