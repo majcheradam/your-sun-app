@@ -7,10 +7,6 @@ const Header = () => {
     <header>
       <div>
         <Link href="/" aria-label="Wróć do menu głównego">
-          <meta
-            name="description"
-            content="By: Mleczni ludzie from ZS2 Łańcut"
-          />
           <Image src="/logo.svg" alt="" width={68} height={68} priority />
         </Link>
       </div>
@@ -21,11 +17,6 @@ const Header = () => {
               <Link href="/solar-dynamics-observatory">
                 Solar Dynamics Observatory
               </Link>
-            </Button>
-          </li>
-          <li>
-            <Button className="button">
-              <Link href="/parker-solar-probe">Parker Solar Probe</Link>
             </Button>
           </li>
           <li>

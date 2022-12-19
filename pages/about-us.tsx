@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Page = () => {
   return (
@@ -21,6 +22,12 @@ const Page = () => {
         nadzieję, że zainteresujemy was naszym projektem i podejściem do tematu.
         😁
       </div>
+      <Link
+        href="https://www.instagram.com/mleczni_ludzie/"
+        style={{ color: '#add8e6' }}
+      >
+        <p>Nasz Instagram ✨</p>
+      </Link>
     </main>
   )
 }

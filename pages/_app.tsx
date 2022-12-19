@@ -1,4 +1,5 @@
 import '../styles/globals.scss'
+import { Roboto } from '@next/font/google'
 import type { AppProps } from 'next/app'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 
@@ -11,6 +12,11 @@ import Polish from '../database/lang/pl.json'
 import English from '../database/lang/en.json'
 import German from '../database/lang/de.json'
 import French from '../database/lang/fr.json'
+
+const roboto = Roboto({
+  subsets: ['latin-ext'],
+  weight: '400',
+})
 
 const darkTheme = createTheme({
   palette: {
@@ -30,15 +36,17 @@ function MyApp({ Component, pageProps }: AppProps) {
       ? German
       : locale === 'fr' && French
   return (
-    <ThemeProvider theme={darkTheme}>
-      <Header />
-      <Component
-        {...pageProps}
-        layers={language.layers}
-        inputs={language.inputs}
-      />
-      <Footer />
-    </ThemeProvider>
+    <div className={roboto.className}>
+      <ThemeProvider theme={darkTheme}>
+        <Header />
+        <Component
+          {...pageProps}
+          layers={language.layers}
+          inputs={language.inputs}
+        />
+        <Footer />
+      </ThemeProvider>
+    </div>
   )
 }
 
