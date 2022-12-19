@@ -21,13 +21,15 @@ const Page = () => {
         Teraz chcemy rozwijać nasz projekt i przy tym dobrze się bawić! Mamy
         nadzieję, że zainteresujemy was naszym projektem i podejściem do tematu.
         😁
+        <br />
+        <br />
+        <Link
+          href="https://www.instagram.com/mleczni_ludzie/"
+          style={{ color: '#add8e6' }}
+        >
+          <p>Nasz Instagram ✨</p>
+        </Link>
       </div>
-      <Link
-        href="https://www.instagram.com/mleczni_ludzie/"
-        style={{ color: '#add8e6' }}
-      >
-        <p>Nasz Instagram ✨</p>
-      </Link>
     </main>
   )
 }
