@@ -29,10 +29,6 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta httpEquiv="Content-type" content="text/html; charset=utf-8" />
-
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta name="theme-color" content="#000000" />
-
         <link rel="apple-touch-icon" href="/logo.svg" />
         <link rel="icon" href="/logo.svg" />
         <meta
