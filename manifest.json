@@ -1,8 +1,8 @@
 {
   "name": "YourSun",
   "short_name": "YourSun",
-  "theme_color": "#0000000",
-  "background_color": "#0000000",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
