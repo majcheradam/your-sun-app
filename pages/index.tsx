@@ -10,7 +10,22 @@ import Stack from '@mui/material/Stack'
 import TextField from '@mui/material/TextField'
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider'
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
-import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker'
+import {
+  MobileDatePicker,
+  MobileDatePickerProps,
+} from '@mui/x-date-pickers/MobileDatePicker'
+
+interface ExtendedMobileDatePickerProps
+  extends MobileDatePickerProps<Dayjs, false> {
+  inputFormat?: string
+  renderInput?: (params: any) => React.ReactElement
+}
+
+const ExtendedMobileDatePicker: React.FC<ExtendedMobileDatePickerProps> = (
+  props
+) => {
+  return <MobileDatePicker {...props} />
+}
 
 // Inputs
 import Box from '@mui/material/Box'
@@ -93,13 +108,13 @@ const Page: React.FC<any> = ({ layers }) => {
             </div>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
               <Stack spacing={3}>
-                <MobileDatePicker
+                <ExtendedMobileDatePicker
                   label="Data"
                   inputFormat="DD/MM/YYYY"
                   value={value}
                   onChange={handleChange}
                   maxDate={dayjs(today)}
-                  minDate={dayjs('20-05-2010', 'DD-MM-YYYY')}
+                  minDate={dayjs('2021-01-01')}
                   renderInput={(params) => <TextField {...params} />}
                 />
               </Stack>
